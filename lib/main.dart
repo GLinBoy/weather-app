@@ -42,9 +42,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SingleChildScrollView(
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: const <Widget>[
               CurrentWeatherInfo(),
+              SizedBox(height: 24.0),
               WeatherInfosRow(),
             ],
           ),
