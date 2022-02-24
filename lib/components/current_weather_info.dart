@@ -21,13 +21,14 @@ class CurrentWeatherInfo extends StatelessWidget {
             fontWeight: FontWeight.w400,
           ),
         ),
+        const SizedBox(height: 13.0),
         Image.asset(
           'assets/images/sun.png',
           width: 256.0,
           height: 256.0,
         ),
         const SizedBox(
-          height: 24.0,
+          height: 13.0,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -59,9 +60,7 @@ class CurrentWeatherInfo extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(
-          height: 24.0,
-        ),
+        const SizedBox(height: 24.0),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
