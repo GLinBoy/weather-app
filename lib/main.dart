@@ -39,13 +39,15 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: const <Widget>[
-            CurrentWeatherInfo(),
-            WeatherInfosRow(),
-          ],
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: const <Widget>[
+              CurrentWeatherInfo(),
+              WeatherInfosRow(),
+            ],
+          ),
         ),
       ),
     );
