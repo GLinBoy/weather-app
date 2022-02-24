@@ -28,9 +28,7 @@ class WeatherInfo extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        const SizedBox(
-          height: 14.0,
-        ),
+        const SizedBox(height: 7.0),
         Text(dayName),
       ],
     );
