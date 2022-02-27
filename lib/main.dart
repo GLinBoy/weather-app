@@ -40,13 +40,16 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: SingleChildScrollView(
-        child: Center(
-          child: Column(
-            children: const <Widget>[
-              CurrentWeatherInfo(),
-              SizedBox(height: 24.0),
-              WeatherInfosRow(),
-            ],
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            child: Column(
+              children: const <Widget>[
+                CurrentWeatherInfo(),
+                SizedBox(height: 7.0),
+                WeatherInfosRow(),
+              ],
+            ),
           ),
         ),
       ),
