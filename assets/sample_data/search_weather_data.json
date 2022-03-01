@@ -1,0 +1,44 @@
+{
+    "message": "accurate",
+    "cod": "200",
+    "count": 1,
+    "list": [
+        {
+            "id": 112931,
+            "name": "Tehran",
+            "coord": {
+                "lat": 35.6944,
+                "lon": 51.4215
+            },
+            "main": {
+                "temp": 10.58,
+                "feels_like": 8.74,
+                "temp_min": 8.59,
+                "temp_max": 10.99,
+                "pressure": 1021,
+                "humidity": 40
+            },
+            "dt": 1646075343,
+            "wind": {
+                "speed": 1.79,
+                "deg": 320
+            },
+            "sys": {
+                "country": "IR"
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "all": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        }
+    ]
+}
