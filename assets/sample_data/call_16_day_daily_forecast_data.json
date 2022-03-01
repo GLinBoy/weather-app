@@ -1,0 +1,258 @@
+{
+    "city": {
+        "id": 112931,
+        "name": "Tehran",
+        "coord": {
+            "lon": 51.4215,
+            "lat": 35.6944
+        },
+        "country": "IR",
+        "population": 7153309,
+        "timezone": 12600
+    },
+    "cod": "200",
+    "message": 5.4861298,
+    "cnt": 7,
+    "list": [
+        {
+            "dt": 1646037000,
+            "sunrise": 1646017574,
+            "sunset": 1646058477,
+            "temp": {
+                "day": 11.04,
+                "min": 7.93,
+                "max": 13,
+                "night": 10.62,
+                "eve": 12.69,
+                "morn": 8.25
+            },
+            "feels_like": {
+                "day": 9.37,
+                "night": 8.86,
+                "eve": 10.98,
+                "morn": 7.12
+            },
+            "pressure": 1021,
+            "humidity": 45,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 2.36,
+            "deg": 33,
+            "gust": 3.03,
+            "clouds": 8,
+            "pop": 0
+        },
+        {
+            "dt": 1646123400,
+            "sunrise": 1646103896,
+            "sunset": 1646144932,
+            "temp": {
+                "day": 12.71,
+                "min": 9.13,
+                "max": 14.91,
+                "night": 12.69,
+                "eve": 14.62,
+                "morn": 9.28
+            },
+            "feels_like": {
+                "day": 10.98,
+                "night": 10.93,
+                "eve": 12.89,
+                "morn": 8.51
+            },
+            "pressure": 1020,
+            "humidity": 36,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 2.2,
+            "deg": 224,
+            "gust": 2.55,
+            "clouds": 2,
+            "pop": 0
+        },
+        {
+            "dt": 1646209800,
+            "sunrise": 1646190217,
+            "sunset": 1646231386,
+            "temp": {
+                "day": 14.78,
+                "min": 11.11,
+                "max": 16.91,
+                "night": 14.31,
+                "eve": 15.51,
+                "morn": 11.49
+            },
+            "feels_like": {
+                "day": 13.12,
+                "night": 12.74,
+                "eve": 13.98,
+                "morn": 9.66
+            },
+            "pressure": 1018,
+            "humidity": 31,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "speed": 4.99,
+            "deg": 268,
+            "gust": 6.07,
+            "clouds": 100,
+            "pop": 0
+        },
+        {
+            "dt": 1646296200,
+            "sunrise": 1646276537,
+            "sunset": 1646317841,
+            "temp": {
+                "day": 17.12,
+                "min": 12.69,
+                "max": 17.98,
+                "night": 16.46,
+                "eve": 17.64,
+                "morn": 12.69
+            },
+            "feels_like": {
+                "day": 15.75,
+                "night": 15.02,
+                "eve": 16.24,
+                "morn": 11.06
+            },
+            "pressure": 1013,
+            "humidity": 33,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 3.09,
+            "deg": 28,
+            "gust": 3.41,
+            "clouds": 95,
+            "pop": 0.28,
+            "rain": 0.15
+        },
+        {
+            "dt": 1646382600,
+            "sunrise": 1646362857,
+            "sunset": 1646404294,
+            "temp": {
+                "day": 12.87,
+                "min": 10.28,
+                "max": 14.79,
+                "night": 10.28,
+                "eve": 12.57,
+                "morn": 11.69
+            },
+            "feels_like": {
+                "day": 11.44,
+                "night": 7.94,
+                "eve": 10.43,
+                "morn": 10.77
+            },
+            "pressure": 1008,
+            "humidity": 47,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 10.47,
+            "deg": 272,
+            "gust": 14.36,
+            "clouds": 84,
+            "pop": 0.87,
+            "rain": 7.11
+        },
+        {
+            "dt": 1646469000,
+            "sunrise": 1646449176,
+            "sunset": 1646490748,
+            "temp": {
+                "day": 12.1,
+                "min": 7.44,
+                "max": 12.44,
+                "night": 10.28,
+                "eve": 11.81,
+                "morn": 7.44
+            },
+            "feels_like": {
+                "day": 9.71,
+                "night": 8.07,
+                "eve": 9.62,
+                "morn": 5.97
+            },
+            "pressure": 1011,
+            "humidity": 13,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "speed": 6.97,
+            "deg": 297,
+            "gust": 12.12,
+            "clouds": 100,
+            "pop": 0
+        },
+        {
+            "dt": 1646555400,
+            "sunrise": 1646535495,
+            "sunset": 1646577201,
+            "temp": {
+                "day": 11.3,
+                "min": 6.57,
+                "max": 12.1,
+                "night": 10.38,
+                "eve": 11,
+                "morn": 6.57
+            },
+            "feels_like": {
+                "day": 9.06,
+                "night": 8.1,
+                "eve": 8.7,
+                "morn": 3.59
+            },
+            "pressure": 1010,
+            "humidity": 22,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 6.99,
+            "deg": 275,
+            "gust": 9.62,
+            "clouds": 8,
+            "pop": 0.21
+        }
+    ]
+}
