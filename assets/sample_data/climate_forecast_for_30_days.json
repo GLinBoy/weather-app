@@ -1,0 +1,405 @@
+{
+    "cod": "200",
+    "city": {
+        "id": 112931,
+        "name": "Tehran",
+        "coord": {
+            "lon": 51.4215,
+            "lat": 35.6944
+        },
+        "country": "IR"
+    },
+    "message": 0.35793469,
+    "list": [
+        {
+            "dt": 1646006400,
+            "humidity": 46.34,
+            "pressure": 1003.31,
+            "temp": {
+                "average": 282.67,
+                "average_max": 287.98,
+                "average_min": 277.17,
+                "record_max": 292.85,
+                "record_min": 270.12
+            },
+            "wind_speed": 2.75
+        },
+        {
+            "dt": 1646092800,
+            "humidity": 42.82,
+            "pressure": 1005.81,
+            "temp": {
+                "average": 283.45,
+                "average_max": 288.76,
+                "average_min": 278.19,
+                "record_max": 291.72,
+                "record_min": 272.22
+            },
+            "wind_speed": 3.49
+        },
+        {
+            "dt": 1646179200,
+            "humidity": 39.95,
+            "pressure": 1003.14,
+            "temp": {
+                "average": 283.39,
+                "average_max": 288.21,
+                "average_min": 278.17,
+                "record_max": 292.08,
+                "record_min": 274.37
+            },
+            "wind_speed": 4.19
+        },
+        {
+            "dt": 1646265600,
+            "humidity": 40.94,
+            "pressure": 1003.2,
+            "temp": {
+                "average": 283.66,
+                "average_max": 288.31,
+                "average_min": 278.88,
+                "record_max": 291.41,
+                "record_min": 274.48
+            },
+            "wind_speed": 4.1
+        },
+        {
+            "dt": 1646352000,
+            "humidity": 38.95,
+            "pressure": 1013.39,
+            "temp": {
+                "average": 285.37,
+                "average_max": 290.77,
+                "average_min": 278.8,
+                "record_max": 294.71,
+                "record_min": 275.35
+            },
+            "wind_speed": 3.8
+        },
+        {
+            "dt": 1646438400,
+            "humidity": 40.95,
+            "pressure": 1015.67,
+            "temp": {
+                "average": 285.85,
+                "average_max": 290.69,
+                "average_min": 280.47,
+                "record_max": 296.72,
+                "record_min": 274.72
+            },
+            "wind_speed": 4.63
+        },
+        {
+            "dt": 1646524800,
+            "humidity": 40.57,
+            "pressure": 1017.05,
+            "temp": {
+                "average": 284.77,
+                "average_max": 289.74,
+                "average_min": 279.45,
+                "record_max": 297.41,
+                "record_min": 273.59
+            },
+            "wind_speed": 3.8
+        },
+        {
+            "dt": 1646611200,
+            "humidity": 38.57,
+            "pressure": 1017.05,
+            "temp": {
+                "average": 284.42,
+                "average_max": 289.31,
+                "average_min": 278.85,
+                "record_max": 294.15,
+                "record_min": 268.65
+            },
+            "wind_speed": 4.3
+        },
+        {
+            "dt": 1646697600,
+            "humidity": 37.45,
+            "pressure": 1017.92,
+            "temp": {
+                "average": 283.48,
+                "average_max": 288.11,
+                "average_min": 278.18,
+                "record_max": 294.12,
+                "record_min": 266.84
+            },
+            "wind_speed": 3.68
+        },
+        {
+            "dt": 1646784000,
+            "humidity": 37.87,
+            "pressure": 1018.46,
+            "temp": {
+                "average": 284.07,
+                "average_max": 289.32,
+                "average_min": 278.55,
+                "record_max": 296.93,
+                "record_min": 271.02
+            },
+            "wind_speed": 3.59
+        },
+        {
+            "dt": 1646870400,
+            "humidity": 37.94,
+            "pressure": 1018.89,
+            "temp": {
+                "average": 283.83,
+                "average_max": 288.03,
+                "average_min": 278.87,
+                "record_max": 294.78,
+                "record_min": 273.33
+            },
+            "wind_speed": 4.08
+        },
+        {
+            "dt": 1646956800,
+            "humidity": 42.83,
+            "pressure": 1014.11,
+            "temp": {
+                "average": 284.03,
+                "average_max": 288.57,
+                "average_min": 279.4,
+                "record_max": 295.46,
+                "record_min": 270.48
+            },
+            "wind_speed": 3.09
+        },
+        {
+            "dt": 1647043200,
+            "humidity": 48.35,
+            "pressure": 1014.27,
+            "temp": {
+                "average": 284.07,
+                "average_max": 289.32,
+                "average_min": 277.81,
+                "record_max": 295.1,
+                "record_min": 270.56
+            },
+            "wind_speed": 4.28
+        },
+        {
+            "dt": 1647129600,
+            "humidity": 44.4,
+            "pressure": 1015.18,
+            "temp": {
+                "average": 283.89,
+                "average_max": 288.98,
+                "average_min": 278.17,
+                "record_max": 294.05,
+                "record_min": 272.11
+            },
+            "wind_speed": 4.33
+        },
+        {
+            "dt": 1647216000,
+            "humidity": 43.09,
+            "pressure": 1015.51,
+            "temp": {
+                "average": 284.98,
+                "average_max": 289.5,
+                "average_min": 279.45,
+                "record_max": 293.33,
+                "record_min": 274.24
+            },
+            "wind_speed": 3.65
+        },
+        {
+            "dt": 1647302400,
+            "humidity": 45.89,
+            "pressure": 1013.57,
+            "temp": {
+                "average": 285.6,
+                "average_max": 289.92,
+                "average_min": 280.66,
+                "record_max": 294.95,
+                "record_min": 276.34
+            },
+            "wind_speed": 3.26
+        },
+        {
+            "dt": 1647388800,
+            "humidity": 43.21,
+            "pressure": 1009.56,
+            "temp": {
+                "average": 286.44,
+                "average_max": 291.07,
+                "average_min": 280.57,
+                "record_max": 296.02,
+                "record_min": 275.45
+            },
+            "wind_speed": 4.15
+        },
+        {
+            "dt": 1647475200,
+            "humidity": 46.84,
+            "pressure": 1013.99,
+            "temp": {
+                "average": 285.81,
+                "average_max": 290.05,
+                "average_min": 281.37,
+                "record_max": 296.68,
+                "record_min": 277.15
+            },
+            "wind_speed": 4.14
+        },
+        {
+            "dt": 1647561600,
+            "humidity": 40.55,
+            "pressure": 1014.04,
+            "temp": {
+                "average": 286.41,
+                "average_max": 291.54,
+                "average_min": 281.11,
+                "record_max": 296.68,
+                "record_min": 275.5
+            },
+            "wind_speed": 4.47
+        },
+        {
+            "dt": 1647648000,
+            "humidity": 33.93,
+            "pressure": 1014.05,
+            "temp": {
+                "average": 286.76,
+                "average_max": 291.38,
+                "average_min": 281.57,
+                "record_max": 295.15,
+                "record_min": 275.49
+            },
+            "wind_speed": 3.94
+        },
+        {
+            "dt": 1647734400,
+            "humidity": 37.08,
+            "pressure": 1010.84,
+            "temp": {
+                "average": 285.51,
+                "average_max": 290.22,
+                "average_min": 280.12,
+                "record_max": 296.14,
+                "record_min": 277.59
+            },
+            "wind_speed": 4.44
+        },
+        {
+            "dt": 1647820800,
+            "humidity": 33.52,
+            "pressure": 1013.63,
+            "temp": {
+                "average": 286.42,
+                "average_max": 291.49,
+                "average_min": 281.52,
+                "record_max": 298.49,
+                "record_min": 277.25
+            },
+            "wind_speed": 3.88
+        },
+        {
+            "dt": 1647907200,
+            "humidity": 42.18,
+            "pressure": 1013.48,
+            "temp": {
+                "average": 285.16,
+                "average_max": 290.07,
+                "average_min": 279.93,
+                "record_max": 297.49,
+                "record_min": 274.57
+            },
+            "wind_speed": 4.44
+        },
+        {
+            "dt": 1647993600,
+            "humidity": 42.85,
+            "pressure": 1014.95,
+            "temp": {
+                "average": 284.46,
+                "average_max": 288.47,
+                "average_min": 280.02,
+                "record_max": 297.21,
+                "record_min": 274.44
+            },
+            "wind_speed": 3.83
+        },
+        {
+            "dt": 1648080000,
+            "humidity": 41.01,
+            "pressure": 1015.53,
+            "temp": {
+                "average": 286.24,
+                "average_max": 290.96,
+                "average_min": 280.11,
+                "record_max": 299.14,
+                "record_min": 274.2
+            },
+            "wind_speed": 2.65
+        },
+        {
+            "dt": 1648166400,
+            "humidity": 43.33,
+            "pressure": 1015.21,
+            "temp": {
+                "average": 286.73,
+                "average_max": 291.08,
+                "average_min": 281.74,
+                "record_max": 299.47,
+                "record_min": 275.86
+            },
+            "wind_speed": 3.4
+        },
+        {
+            "dt": 1648252800,
+            "humidity": 46.98,
+            "pressure": 1015.94,
+            "temp": {
+                "average": 286.24,
+                "average_max": 290.29,
+                "average_min": 282.4,
+                "record_max": 301.14,
+                "record_min": 278.51
+            },
+            "wind_speed": 3.69
+        },
+        {
+            "dt": 1648339200,
+            "humidity": 42.58,
+            "pressure": 1016.81,
+            "temp": {
+                "average": 287.01,
+                "average_max": 291.49,
+                "average_min": 282.05,
+                "record_max": 300.71,
+                "record_min": 277.41
+            },
+            "wind_speed": 3.41
+        },
+        {
+            "dt": 1648425600,
+            "humidity": 37.59,
+            "pressure": 1015.13,
+            "temp": {
+                "average": 287.98,
+                "average_max": 292.62,
+                "average_min": 282.6,
+                "record_max": 302.22,
+                "record_min": 277.25
+            },
+            "wind_speed": 4.06
+        },
+        {
+            "dt": 1648512000,
+            "humidity": 37.01,
+            "pressure": 1010.1,
+            "temp": {
+                "average": 288.29,
+                "average_max": 293.05,
+                "average_min": 283.43,
+                "record_max": 302.86,
+                "record_min": 277.63
+            },
+            "wind_speed": 3.77
+        }
+    ]
+}
