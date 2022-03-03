@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class WeatherInfo extends StatelessWidget {
   final String imagePath;
-  final String degree;
+  final double degree;
   final String dayName;
 
   const WeatherInfo({
@@ -30,7 +30,7 @@ class WeatherInfo extends StatelessWidget {
                   height: 64,
                 ),
                 Text(
-                  '$degree°',
+                  '${degree.toInt()}°',
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
