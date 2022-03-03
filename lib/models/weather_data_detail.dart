@@ -6,7 +6,7 @@ class WeatherDataDetail {
   double? pressure;
   double? sea_level;
   double? grand_level;
-  double? humiday;
+  double? humidity;
   double? temp_kf;
 
   WeatherDataDetail({
@@ -17,7 +17,7 @@ class WeatherDataDetail {
     this.pressure,
     this.sea_level,
     this.grand_level,
-    this.humiday,
+    this.humidity,
     this.temp_kf,
   });
 
@@ -30,7 +30,7 @@ class WeatherDataDetail {
       pressure: json['pressure'],
       sea_level: json['sea_level'],
       grand_level: json['grand_level'],
-      humiday: json['humiday'],
+      humidity: json['humidity'],
       temp_kf: json['temp_kf'],
     );
   }
