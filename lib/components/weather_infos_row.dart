@@ -14,47 +14,19 @@ class WeatherInfosRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var infos = weatherData
+        .map((wd) => WeatherInfo(
+              imagePath: 'assets/images/cloud.png',
+              degree: wd.main?.temp ?? 0.0,
+              dayName: DateFormat('EEEE')
+                  .format(DateTime.fromMillisecondsSinceEpoch(wd.dt ?? 0)),
+            ))
+        .toList();
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: const [
-          WeatherInfo(
-            imagePath: 'assets/images/cloud.png',
-            degree: '22',
-            dayName: 'Sunday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/cloudy-day.png',
-            degree: '20',
-            dayName: 'Monday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/cloudy-night.png',
-            degree: '22',
-            dayName: 'Tuesday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/cloudy.png',
-            degree: '20',
-            dayName: 'Wendsday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/rain.png',
-            degree: '18',
-            dayName: 'Tuersday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/snowy.png',
-            degree: '16',
-            dayName: 'Friday',
-          ),
-          WeatherInfo(
-            imagePath: 'assets/images/storm.png',
-            degree: '14',
-            dayName: 'Satarday',
-          ),
-        ],
+        children: infos,
       ),
     );
   }
