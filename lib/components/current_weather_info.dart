@@ -26,9 +26,9 @@ class CurrentWeatherInfo extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const Text(
-              'Sunny',
-              style: TextStyle(
+            Text(
+              currentWeatherData.weather?[0].description ?? 'UNKOWN',
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w400,
               ),
@@ -46,17 +46,23 @@ class CurrentWeatherInfo extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
-                  children: const [
-                    Icon(Icons.water_drop),
-                    SizedBox(height: 10.0),
-                    Text('39-40%'),
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.water_drop),
+                    const SizedBox(height: 10.0),
+                    Text(
+                      '${currentWeatherData.main?.humidity ?? 0}%',
+                    ),
                   ],
                 ),
                 Column(
-                  children: const [
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
                     Text(
-                      '27°',
-                      style: TextStyle(
+                      '${currentWeatherData.main?.temp?.toInt() ?? 0}°',
+                      style: const TextStyle(
                         fontSize: 44,
                         fontWeight: FontWeight.bold,
                       ),
@@ -64,10 +70,14 @@ class CurrentWeatherInfo extends StatelessWidget {
                   ],
                 ),
                 Column(
-                  children: const [
-                    Icon(Icons.waves),
-                    SizedBox(height: 10.0),
-                    Text('24km/h'),
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.waves),
+                    const SizedBox(height: 10.0),
+                    Text(
+                      '${currentWeatherData.wind?.speed ?? 0} km/h',
+                    ),
                   ],
                 ),
               ],
@@ -77,6 +87,8 @@ class CurrentWeatherInfo extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: const [
                     Chip(
                       label: SizedBox(
@@ -93,6 +105,8 @@ class CurrentWeatherInfo extends StatelessWidget {
                   ],
                 ),
                 Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: const [
                     Chip(
                       label: SizedBox(
@@ -109,6 +123,8 @@ class CurrentWeatherInfo extends StatelessWidget {
                   ],
                 ),
                 Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: const [
                     Chip(
                       label: SizedBox(
