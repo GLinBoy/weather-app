@@ -1,7 +1,11 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:weather/api/mock_weather_service.dart';
 
 import 'components/weather_infos_row.dart';
 import 'components/current_weather_info.dart';
+import 'models/models.dart';
 
 void main() {
   runApp(const WeatherApp());
@@ -33,26 +37,51 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final weatherService = MockWeatherhService();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Center(
-            child: Column(
-              children: const <Widget>[
-                CurrentWeatherInfo(),
-                SizedBox(height: 7.0),
-                WeatherInfosRow(),
-              ],
-            ),
-          ),
-        ),
-      ),
+    return FutureBuilder(
+      future: weatherService.get5Day3HourForcastData(),
+      builder: (context, AsyncSnapshot<ServiceResponce> snapshot) {
+        if (snapshot.connectionState == ConnectionState.done) {
+          if (snapshot.hasData) {
+            var response = snapshot.data;
+            return Scaffold(
+              appBar: AppBar(
+                title: Text(widget.title),
+              ),
+              body: SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Center(
+                    child: Column(
+                      children: <Widget>[
+                        CurrentWeatherInfo(
+                          currentWeatherData: response!.list![0],
+                        ),
+                        const SizedBox(height: 7.0),
+                        WeatherInfosRow(
+                          weatherData: response.list!,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            );
+          } else if (snapshot.hasError) {
+            return Center(
+              child: Text('ERROR: ${snapshot.error}'),
+            );
+          } else {
+            return const Center(
+              child: Text('Somthing went wrong...'),
+            );
+          }
+        } else {
+          return const Center(child: CircularProgressIndicator());
+        }
+      },
     );
   }
 }
