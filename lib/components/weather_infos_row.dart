@@ -1,8 +1,16 @@
+import 'package:intl/intl.dart';
+
 import 'package:flutter/material.dart';
+
+import '../models/models.dart';
 import 'weather_info.dart';
 
 class WeatherInfosRow extends StatelessWidget {
-  const WeatherInfosRow({Key? key}) : super(key: key);
+  final List<WeatherData> weatherData;
+  const WeatherInfosRow({
+    Key? key,
+    required this.weatherData,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
