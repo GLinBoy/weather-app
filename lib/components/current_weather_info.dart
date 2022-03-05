@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/models.dart';
+import '../models/daily_forecast_16_days/models.dart';
 
 class CurrentWeatherInfo extends StatelessWidget {
   final WeatherData currentWeatherData;
@@ -52,7 +52,7 @@ class CurrentWeatherInfo extends StatelessWidget {
                     const Icon(Icons.water_drop),
                     const SizedBox(height: 10.0),
                     Text(
-                      '${currentWeatherData.main?.humidity ?? 0}%',
+                      '${currentWeatherData.humidity ?? 0}%',
                     ),
                   ],
                 ),
@@ -61,7 +61,7 @@ class CurrentWeatherInfo extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      '${currentWeatherData.main?.temp?.toInt() ?? 0}°',
+                      '${currentWeatherData.temp?.day?.toInt() ?? 0}°',
                       style: const TextStyle(
                         fontSize: 44,
                         fontWeight: FontWeight.bold,
@@ -76,7 +76,7 @@ class CurrentWeatherInfo extends StatelessWidget {
                     const Icon(Icons.waves),
                     const SizedBox(height: 10.0),
                     Text(
-                      '${currentWeatherData.wind?.speed ?? 0} km/h',
+                      '${currentWeatherData.speed ?? 0} km/h',
                     ),
                   ],
                 ),
