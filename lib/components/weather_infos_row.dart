@@ -2,7 +2,7 @@ import 'package:intl/intl.dart';
 
 import 'package:flutter/material.dart';
 
-import '../models/models.dart';
+import '../models/daily_forecast_16_days/models.dart';
 import 'weather_info.dart';
 
 class WeatherInfosRow extends StatelessWidget {
@@ -17,7 +17,7 @@ class WeatherInfosRow extends StatelessWidget {
     var infos = weatherData
         .map((wd) => WeatherInfo(
               imagePath: 'assets/images/cloud.png',
-              degree: wd.main?.temp ?? 0.0,
+              degree: wd.temp?.day ?? 0.0,
               dayName: DateFormat('EEEE')
                   .format(DateTime.fromMillisecondsSinceEpoch(wd.dt ?? 0)),
             ))
