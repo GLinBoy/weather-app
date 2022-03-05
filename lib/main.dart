@@ -2,10 +2,10 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:weather/api/mock_weather_service.dart';
+import 'models/daily_forecast_16_days/models.dart';
 
 import 'components/weather_infos_row.dart';
 import 'components/current_weather_info.dart';
-import 'models/models.dart';
 
 void main() {
   runApp(const WeatherApp());
@@ -41,8 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: weatherService.get5Day3HourForcastData(),
-      builder: (context, AsyncSnapshot<ServiceResponce> snapshot) {
+      future: weatherService.getDailyForecast16DaysData(),
+      builder: (context, AsyncSnapshot<DailyForecast16DaysResponse> snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           if (snapshot.hasData) {
             var response = snapshot.data;
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         const SizedBox(height: 7.0),
                         WeatherInfosRow(
-                          weatherData: response.list!,
+                          weatherData: response.list!.sublist(1),
                         ),
                       ],
                     ),
